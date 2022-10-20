@@ -1,0 +1,150 @@
+:root {
+  --font-heading: 800;
+  --color-primary: rgb(255, 72, 0);
+  --color-gray-900: #212529;
+}
+/*
+Based on CSS RESET by Josh W Comeau
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p {
+  overflow-wrap: break-word;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  font-weight: 800;
+  font-weight: var(--font-heading, 800);
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/*
+Custom CSS
+*/
+
+.container {
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  color: var(--color-gray-900, #212529);
+}
+
+header nav {
+  display: block;
+  flex: 1 1;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  display: block;
+  text-decoration: none;
+}
+
+.logo {
+  flex: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.social-icons {
+  flex: 1 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-icon {
+  margin-left: 1.5rem;
+}
+
+.social-icon svg.facebook,
+.social-icon svg.twitter {
+  fill: black;
+  stroke: none;
+}
+.social-icon svg.instagram {
+  fill: none;
+  stroke: black;
+}
+
+.social-icon:hover svg.facebook,
+.social-icon:hover svg.twitter {
+  fill: var(--color-primary);
+  stroke: none;
+}
+
+.social-icon:hover svg.instagram {
+  fill: none;
+  stroke: var(--color-primary);
+}
+
+/*
+Custom Media Queries
+*/
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
