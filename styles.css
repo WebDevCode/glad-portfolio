@@ -91,7 +91,7 @@ header nav {
 
 header nav ul {
   display: flex;
-  justify-content: space-around;
+  
 }
 
 header nav ul li {
@@ -100,6 +100,7 @@ header nav ul li {
 
 header nav ul li a {
   display: block;
+  padding: 10px;
   text-decoration: none;
 }
 
@@ -112,6 +113,7 @@ header nav ul li a {
   flex: 1 1;
   display: flex;
   justify-content: flex-end;
+  padding-right: 10px;
 }
 
 .social-icon {
