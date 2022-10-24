@@ -13,62 +13,429 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="logo">
-          <h1>Glad</h1>
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <h1>Glad</h1>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="#about-me">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+
+          <div class="social-icons">
+            <a
+              class="social-icon"
+              href="https://www.facebook.com/lesleyannedgeorge/"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="facebook"
+              >
+                <path
+                  d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"
+                ></path>
+              </svg>
+            </a>
+            <a class="social-icon" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="twitter"
+              >
+                <path
+                  d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"
+                ></path>
+              </svg>
+            </a>
+            <a
+              class="social-icon"
+              href="https://www.linkedin.com/in/lesley-george-7157598b/"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="linkedin"
+              >
+                <circle cx="4.983" cy="5.009" r="2.188"></circle>
+                <path
+                  d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"
+                ></path>
+              </svg>
+            </a>
+            <a class="social-icon" href="https://www.instagram.com/dc_bullet/">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="instagram"
+              >
+                <path
+                  d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"
+                ></path>
+                <circle cx="11.994" cy="11.979" r="3.003"></circle>
+              </svg>
+            </a>
+          </div>
         </div>
-        <div class="social-icons">
-          <a class="social-icon" href=""
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              class="facebook"
-            >
-              <path
-                d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
-              ></path></svg
-          ></a>
-          <a class="social-icon" href=""
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              class="twitter"
-            >
-              <path
-                d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
-              ></path></svg
-          ></a>
-          <a class="social-icon" href=""
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="instagram"
-            >
-              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg
-          ></a>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-title">
+          <div class="hero-container">
+            <h1>👋 Hi! I am</h1>
+            <h1 class="hero-name">Lesley Anne George</h1>
+            <p>
+              Multi Lingual Virtual Assistant, Social Media manager, Customer
+              Experience Advocate and much more.
+            </p>
+            <a class="hire-me" href="mailto:">Let's Work Together!</a>
+            <!-- <a class="hero-project" href="#">Projects</a> -->
+            <div class="hero-social">
+              <a
+                class="social-icon"
+                href="https://www.facebook.com/lesleyannedgeorge/"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="facebook"
+                >
+                  <path
+                    d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"
+                  ></path>
+                </svg>
+              </a>
+              <a class="social-icon" href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="twitter"
+                >
+                  <path
+                    d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                class="social-icon"
+                href="https://www.linkedin.com/in/lesley-george-7157598b/"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="linkedin"
+                >
+                  <circle cx="4.983" cy="5.009" r="2.188"></circle>
+                  <path
+                    d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                class="social-icon"
+                href="https://www.instagram.com/dc_bullet/"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="instagram"
+                >
+                  <path
+                    d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"
+                  ></path>
+                  <circle cx="11.994" cy="11.979" r="3.003"></circle>
+                </svg>
+              </a>
+            </div>
+          </div>
         </div>
-      </header>
-    </div>
+        <div class="profile">
+          <div class="profile-pic">
+            <div class="profile-highlight-icon skill-one">
+              <img src="assets/img/cs-bg.svg" alt="" />
+            </div>
+            <img src="/assets/img/la-profile-pic.png" alt="" />
+            <div class="profile-highlight-icon skill-two">
+              <img src="assets/img/language-bg.svg" alt="" />
+            </div>
+            <div class="profile-highlight-icon skill-three">
+              <img src="assets/img/social-bg.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-container">
+            <div class="spotlight">
+              <img src="/assets/img/freeup-white.svg" alt="" />
+              <p>Spotlight Awardee 🏅</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="companies">
+        <div class="container">
+          <div class="company-logos">
+            <div class="company"><img src="assets/img/myton.png" alt="" /></div>
+            <div class="company">
+              <img src="assets/img/PureMagicLogo.png" alt="" />
+            </div>
+            <div class="company">
+              <img src="assets/img/WR_Logo.svg" alt="" />
+            </div>
+            <div class="company">
+              <h2 class="company-name">HealthyForLife</h2>
+              <p>Colorado, US</p>
+            </div>
+            <div class="company">
+              <h2 class="company-name">Nu Era Labs</h2>
+              <p>United States</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about-me" class="about">
+        <div class="container">
+          <div class="about-me">
+            <div class="section-title">
+              <div class="decoration-line"></div>
+              <a href="#about-me">About Me</a>
+            </div>
+            <div class="about-desc">
+              <p>
+                As a ​Virtual Assistant ​with a strong customer service
+                background, I offer expertise in client relations, benefits
+                administration, and generalist duties. I have made significant
+                contributions in succession planning and implementing marketing
+                strategies that helped in sales appointments and lead
+                generation. I am also known for my ability to help identify
+                process improvements. I am well-versed in communicating with
+                clients and leveraging the benefits of clients and
+                administration.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="core-skills">
+        <div class="container">
+          <div class="section-title">
+            <div class="decoration-line"></div>
+            <a href="#about-me">How I can help</a>
+          </div>
+          <div class="skills">
+            <div class="skill-detail core-skill-one">
+              <h3 class="skill-title">Lead Generation</h3>
+              <p class="skill-desc">
+                Generate leads to help find the right audience for your projects
+                (motivational speaking, real estate etc.)
+              </p>
+            </div>
+            <div class="skill-detail core-skill-two">
+              <h3 class="skill-title">Appointment Setting</h3>
+              <p class="skill-desc">
+                Set appointments for webinars, write scripts (both phone calls
+                and emails) to be sent to appropriate leads
+              </p>
+            </div>
+            <div class="skill-detail core-skill-three">
+              <h3 class="skill-title">Manage Social Media</h3>
+              <p class="skill-desc">
+                Assist in creating parameters in social media for better
+                marketing and improving sales
+              </p>
+            </div>
+            <div class="skill-detail core-skill-four">
+              <h3 class="skill-title">Transcription</h3>
+              <p class="skill-desc">
+                Transcribe efficiently a range of products including but not
+                limited to books, webinars, events etc.
+              </p>
+            </div>
+            <div class="skill-detail core-skill-five">
+              <h3 class="skill-title">Organize Workshops</h3>
+              <p class="skill-desc">
+                Provide Virtual assistance in organizing workshops for better
+                management and flow
+              </p>
+            </div>
+            <div class="skill-detail core-skill-six">
+              <h3 class="skill-title">Sales & Marketing</h3>
+              <p class="skill-desc">
+                Arrange meetings with clients and potential clients, handle team
+                for better initial sales call and appointments
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials">
+        <div class="container">
+          <div class="section-title">
+            <div class="decoration-line"></div>
+            <a href="#testimonials">What my clients say</a>
+          </div>
+          <div class="slider">
+            <div class="quotes"></div>
+            <div class="slides">
+              <div class="slide" id="slide-1">
+                <p class="testimonial">
+                  Lesley is a dynamo! Amazing on the phone and takes great
+                  direction. Jump, don't hesitate in hiring Lesley.She has one
+                  of the highest appointment and event show ratios of any of my
+                  staff.
+                </p>
+                <div class="decoration-line"></div>
+                <div class="author">
+                  <p class="author-name">Carrie Myton</p>
+                  <p class="author-title">CEO, Myton Consulting</p>
+                </div>
+              </div>
+              <div class="slide" id="slide-2">
+                <p class="testimonial">You are a phone legend</p>
+                <div class="decoration-line"></div>
+                <div class="author">
+                  <p class="author-name">Caryn Walsh</p>
+                  <p class="author-title">
+                    Found & CEO, Pure Magic International Business Solutions
+                    (Pty) Ltd
+                  </p>
+                </div>
+              </div>
+              <div class="slide" id="slide-3">
+                <p class="testimonial">You are the best, Lesley!!</p>
+                <div class="decoration-line"></div>
+                <div class="author">
+                  <p class="author-name">Nate Evans</p>
+                  <p class="author-title">Motivational Speakers (Australia)</p>
+                </div>
+              </div>
+              <div class="slide" id="slide-4">
+                <p class="testimonial">Thanks for your good work!</p>
+                <div class="decoration-line"></div>
+                <div class="author">
+                  <p class="author-name">Piage Taylor</p>
+                  <p class="author-title">Nu Era Labs</p>
+                </div>
+              </div>
+              <!-- <div class="slide" id="slide-5">5</div> -->
+            </div>
+            <div class="slider-nav">
+              <a href="#slide-1">1</a>
+              <a href="#slide-2">2</a>
+              <a href="#slide-3">3</a>
+              <a href="#slide-4">4</a>
+            </div>
+            <!-- <a href="#slide-5">5</a> -->
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact-us">
+        <div class="container">
+          <div class="contact">
+            <h2>Let's connect and figure out how I can help.</h2>
+            <a class="hire-me" href="mailto:">Email Me</a>
+            <div class="hero-social">
+              <a
+                class="social-icon"
+                href="https://www.facebook.com/lesleyannedgeorge/"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="facebook"
+                >
+                  <path
+                    d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"
+                  ></path>
+                </svg>
+              </a>
+              <a class="social-icon" href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="twitter"
+                >
+                  <path
+                    d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                class="social-icon"
+                href="https://www.linkedin.com/in/lesley-george-7157598b/"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="linkedin"
+                >
+                  <circle cx="4.983" cy="5.009" r="2.188"></circle>
+                  <path
+                    d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                class="social-icon"
+                href="https://www.instagram.com/dc_bullet/"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="instagram"
+                >
+                  <path
+                    d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"
+                  ></path>
+                  <circle cx="11.994" cy="11.979" r="3.003"></circle>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="logo white">
+            <h1>Glad</h1>
+          </div>
+          <div class="footer-note">
+            <p>All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
